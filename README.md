@@ -171,15 +171,6 @@ cd packages/server
 pnpm db:studio
 ```
 
----
-
-## Adding the Client
-
-The `packages/client/` directory is a placeholder. When the client is ready:
-
-1. Drop all client source files into `packages/client/`
-2. Ensure its `package.json` has `"name": "@growth-tracker/client"` and a `"dev"` script that starts on port **3000**
-3. Run `bash start.sh` as normal — the client will start alongside the server
 
 ---
 
